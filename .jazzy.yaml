@@ -1,6 +1,6 @@
 module: KituraMustache
 author: IBM
-github_url: https://github.com/IBM-Swift/Kitura-MustacheTemplateEngine/
+github_url: https://github.com/Kitura-Next/Kitura-MustacheTemplateEngine/
 
 theme: fullwidth
 clean: true

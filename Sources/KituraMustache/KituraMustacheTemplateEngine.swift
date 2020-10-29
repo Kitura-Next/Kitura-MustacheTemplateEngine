@@ -39,7 +39,7 @@ public enum MustacheTemplateEngineError: Swift.Error {
 }
 
 /**
- A `TemplateEngine` for Kitura that uses [GRMustache](https://github.com/IBM-Swift/GRMustache.swift) for templating.
+ A `TemplateEngine` for Kitura that uses [GRMustache](https://github.com/Kitura-Next/GRMustache.swift) for templating.
 
  The default file extension for templates using this engine is `mustache`. If you do
  not explicitly provide a file extension in the call to `response.render` then this
@@ -55,7 +55,7 @@ public enum MustacheTemplateEngineError: Swift.Error {
         next()
     }
  ```
- For more information on Mustache templating, see: https://www.kitura.io/guides/templating/mustachetemplate.html
+ For more information on Mustache templating, see: https://www.kituranext.org/guides/templating/mustachetemplate.html
  */
 public class MustacheTemplateEngine: TemplateEngine {
 

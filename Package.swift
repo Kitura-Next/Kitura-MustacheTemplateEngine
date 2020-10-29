@@ -29,8 +29,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/IBM-Swift/Kitura-TemplateEngine.git", from: "2.0.0"),
-        .package(url: "https://github.com/IBM-Swift/GRMustache.swift.git", from: "1.7.4")
+        .package(url: "https://github.com/Kitura-Next/Kitura-TemplateEngine.git", from: "2.0.0"),
+        .package(url: "https://github.com/Kitura-Next/GRMustache.swift.git", from: "1.7.4")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
